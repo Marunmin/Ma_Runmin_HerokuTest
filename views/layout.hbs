@@ -6,13 +6,35 @@
     <link rel="stylesheet" href="/stylesheets/master.css">
   </head>
   <body>
-    <a href="/">Home</a>
-    <h1>Anything under me is being rendered dynamically from the router</h1>
+    <div class="wrapper">
+      <div class="container-fluid navbar-fixed-top topBar">
+        <header class="mainHeader">
+          <nav>
+          <ul class="smIcons hidden-xs">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Price</a></li>
+                    <li><a href="#">Style</a></li>
+         </ul>
+        </header>
+        </div>
+
     <!-- triple handlebars is a shorthand for a router-view -->
     {{{body}}}
+    <div class ="container" id="thumSec">
+      <div class = "small-12 medium-6 large-4 columns allThumbs">
+
+
+      </div>
+    </div>
 
     <h3>I live under the router view</h3>
-    <a href="/user1">User 1</a>
-    <a href="/user2">User 2</a>
+    <a href="/user1">CT</a>
+    <a href="/user2">Sport</a>
+    <a href="/user3">Is</a>
+    <a href="/user4">Le</a>
+    <a href="/user5">Lux</a>
+    <a href="/user6">UX</a>
   </body>
 </html>

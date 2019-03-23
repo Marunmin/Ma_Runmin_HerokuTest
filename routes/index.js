@@ -5,7 +5,9 @@ const data = require('../data');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Your first Express App', message: 'Express is actually pretty easy once you figure a few things out' });
+  res.render('index', { title: 'Introduce the LEXUS', Photo_image: "CT.png", user_3page: "Is.png", user_4page: "Le.png", message: 'Express is actually pretty easy once you figure a few things out',
+
+    });
 });
 
 //get a dynamic user via the route parameter
